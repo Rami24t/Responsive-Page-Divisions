@@ -1,4 +1,4 @@
-# Responsive-Page-Divisions
+# Colored Responsive Page Divisions
 
 My solution to the exercise from the teacher of fbw-wd-22-e04.slack. on June 15
 
