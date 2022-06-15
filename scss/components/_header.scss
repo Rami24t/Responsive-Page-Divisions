@@ -2,6 +2,8 @@
 
 header{
     background-color: v.$h-bg-color;
-    height: v.$h-height;
+    min-height: v.$h-height;
     width: v.$h-width;
+    margin: 1vw;
+    margin-bottom: 0vw;
 }

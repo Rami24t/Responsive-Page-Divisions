@@ -1,16 +1,15 @@
 $h-bg-color: rgb(255, 0, 0);
-$h-height: 20vh;
-$h-width: 100%;
+$h-height: calc(30vh - 2vw);
+$h-width: calc(100% - 2vw);
 
 $ag-bg-color: rgb(0, 255, 0);
-$ag-height-min:70vh;
-$ag-min-width:25%;
+$ag-height-min: calc(70vh - 1vw);
+$ag-min-width:caLc(25% - 1vw);
 
 $mb-bg-color: rgb(0,0,255);
-$mb-height: 100vh;
-$mb-min-width:50%;
+$mb-height: calc(100vh - 1vw);
+$mb-min-width:calc(50% - 2vw);
 
 $ap-bg-color: rgb(255, 0, 255);
-$ap-height-min: 15vh;
-$ap-height-max: 80vh;
-$ap-min-width: 50%;
+$ap-height-min: calc(15vh - 1vw);
+$ap-min-width: calc(25% - 1vw);

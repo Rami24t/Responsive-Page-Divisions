@@ -1,0 +1,19 @@
+@use "../abstract/breakpoints" as v2;
+
+
+@media only screen and (max-width: v2.$sm) {
+    .m-blue {
+        width: calc(100% - 2vw);
+        margin-bottom: 0%;
+        order: -1;
+    }
+
+    .aside-g {
+        width: calc(50% - 1.5vw);
+    }
+
+    .aside-p {
+        margin-left: 1vw;
+        width: calc(50% - 1.5vw);
+    }
+}

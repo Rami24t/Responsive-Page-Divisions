@@ -1,8 +1,9 @@
 @use '../abstract/variables' as v;
 
-.a-green{
+.aside-g{
     background-color: v.$ag-bg-color;
     min-height: v.$ag-height-min;
-    max-height: v.$ag-height-max;
     min-width: v.$ag-min-width;
+    margin: 1vw;
+    margin-right: 0;
 }

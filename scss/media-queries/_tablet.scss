@@ -1,0 +1,15 @@
+@use "../abstract/breakpoints" as v2;
+
+@media only screen and (max-width: v2.$md) and (min-width: v2.$sm) {
+  .m-blue {
+    width: 73vw;
+  }
+  .aside-g {
+    width: 24vw;
+  }
+  .aside-p {
+    width: 98vw;
+    margin-top: 0%;
+    margin-left: 1vw;
+  }
+}

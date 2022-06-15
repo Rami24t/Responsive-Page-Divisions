@@ -1,6 +1,22 @@
-@use './abstract/main-variables' as v;
-@use './components/header.scss';
+@use "./base/base";
+@use "./abstract/main-variables" as v;
+@use "./components/header";
+@use "./components/aside-g";
+@use "./components/m-blue";
+@use "./components/aside-p";
+@use './media-queries/mobile';
+@use './media-queries/tablet';
+@use './animations/animate.scss';
 
-main{
+main {
     min-height: v.$m-height-min;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, main>*{
+    animation: animate 2.2s ease-in 1 reverse;
+}
+main> .m-blue{
+    animation: animate 2.1s  1 reverse;
 }

@@ -1,8 +1,9 @@
 @use '../abstract/variables' as v;
 
-.a-pink{
+.aside-p{
     background-color: v.$ap-bg-color;
     min-height: v.$ap-height-min;
-    max-height: v.$ap-height-max;
     min-width: v.$ap-min-width;
+    margin: 1vw;
+    margin-left: 0;
 }

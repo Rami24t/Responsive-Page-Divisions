@@ -1,0 +1,8 @@
+@use '../abstract/variables' as v;
+
+.m-blue {
+  background-color: v.$mb-bg-color;
+  min-height: v.$mb-height;
+  min-width: v.$mb-min-width;
+  margin: 1vw;
+}

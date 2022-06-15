@@ -1,11 +1,89 @@
-header {
-  background-color: rgb(255, 0, 0);
-  height: 20vh;
-  width: 100%;
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
+header {
+  background-color: rgb(255, 0, 0);
+  min-height: calc(30vh - 2vw);
+  width: calc(100% - 2vw);
+  margin: 1vw;
+  margin-bottom: 0vw;
+}
+
+.aside-g {
+  background-color: rgb(0, 255, 0);
+  min-height: calc(70vh - 1vw);
+  min-width: calc(25% - 1vw);
+  margin: 1vw;
+  margin-right: 0;
+}
+
+.m-blue {
+  background-color: rgb(0, 0, 255);
+  min-height: calc(100vh - 1vw);
+  min-width: calc(50% - 2vw);
+  margin: 1vw;
+}
+
+.aside-p {
+  background-color: rgb(255, 0, 255);
+  min-height: calc(15vh - 1vw);
+  min-width: calc(25% - 1vw);
+  margin: 1vw;
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .m-blue {
+    width: calc(100% - 2vw);
+    margin-bottom: 0%;
+    order: -1;
+  }
+  .aside-g {
+    width: calc(50% - 1.5vw);
+  }
+  .aside-p {
+    margin-left: 1vw;
+    width: calc(50% - 1.5vw);
+  }
+}
+@media only screen and (max-width: 961px) and (min-width: 600px) {
+  .m-blue {
+    width: 73vw;
+  }
+  .aside-g {
+    width: 24vw;
+  }
+  .aside-p {
+    width: 98vw;
+    margin-top: 0%;
+    margin-left: 1vw;
+  }
+}
+@keyframes animate {
+  from {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0) rotate(180deg);
+  }
+}
 main {
-  min-height: 100vh;
+  min-height: calc(100vh - 4vw);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header, main > * {
+  animation: animate 2.2s ease-in 1 reverse;
+}
+
+main > .m-blue {
+  animation: animate 2.1s 1 reverse;
 }
 
 /*# sourceMappingURL=style.css.map */
