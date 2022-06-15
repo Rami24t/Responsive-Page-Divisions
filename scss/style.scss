@@ -4,8 +4,8 @@
 @use "./components/aside-g";
 @use "./components/m-blue";
 @use "./components/aside-p";
-@use './media-queries/mobile';
 @use './media-queries/tablet';
+@use './media-queries/mobile';
 @use './animations/animate.scss';
 
 main {
