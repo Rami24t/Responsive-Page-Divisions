@@ -1,0 +1,6 @@
+@use './abstract/main-variables' as v;
+@use './components/header.scss';
+
+main{
+    min-height: v.$m-height-min;
+}
