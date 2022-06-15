@@ -6,6 +6,6 @@ My solution to the exercise from the teacher of fbw-wd-22-e04.slack. on June 15
 
 https://rami24t.github.io/Responsive-Page-Divisions/
 
-## Creating a responsive page that resembles the design in this image using scss
+### Creating a responsive page that resembles the design in this image using scss and publishing it using gh-pages.
 
 ![image](https://user-images.githubusercontent.com/103028944/173941327-06d05bef-7a44-4bc4-9b2c-4c8770fa5056.png)
