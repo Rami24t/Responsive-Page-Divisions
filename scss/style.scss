@@ -14,9 +14,15 @@ main {
     flex-wrap: wrap;
 }
 
-header, main>*{
-    animation: animate 2.2s ease-in 1 reverse;
+header, .aside-p , .aside-g , .m-blue{
+    animation: animate 2.2s ease-in 1 reverse, animate2 0.4s linear infinite alternate;
+    border: 1vmax solid rgba(123, 0, 255, 0.01);
+    border-radius: 1vmax;
+    opacity: 0.9;
 }
-main> .m-blue{
-    animation: animate 2.1s  1 reverse;
+.m-blue{
+    animation: animate2 0.4s linear infinite alternate-reverse;
+}
+.aside-g{
+    animation: animate 2.2s ease-in 1 reverse, animate2 0.4s linear infinite 1s alternate-reverse;
 }
