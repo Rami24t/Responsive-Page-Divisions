@@ -59,31 +59,40 @@ header {
 
 @media only screen and (max-width: 1100px) {
   .m-blue {
-    width: 73vw;
+    width: 71.5vw;
+    margin: 1.5vw;
+    margin-left: 0; 
   }
   .aside-g {
-    width: 24vw;
+    width: 22.5vw;
+    height: 99vh;
+    margin:1.5vw;
+    margin-bottom: 0;
   }
   .aside-p {
-    width: 98vw;
-    margin-top: 0%;
-    margin-left: 1vw;
+    width: 97vw;
+    margin: 1.5vw;    margin-top: 0%;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .m-blue {
-    width: calc(100% - 2vw);
+    width: calc(100% - 4vw);
+    margin: 2vw auto;
     margin-bottom: 0%;
     order: -1;
   }
   .aside-g {
-    width: 48.5vw;
+    width: 46.5vw;
+     margin:2vw;
+      margin-right: 0vw;
   }
   .aside-p {
-    margin: 1vw;
-    width: 48.5vw;
+    margin: 2vw;
+    width: 46.5vw;
   }
 }
+
 main {
   min-height: calc(100vh - 4vw);
   display: flex;
