@@ -12,7 +12,7 @@
     background-position: 0% 0%;
   }
   100% {
-    background-position: 0% 90%;
+    background-position: 0% 88%;
   }
 }
 @keyframes animate-bg {
@@ -33,7 +33,12 @@
 
 body {
   background-color: rgba(202, 202, 202, 0.382);
-  background-image: radial-gradient(rgba(255, 255, 255, 0.9), rgba(228, 228, 228, 0.6), rgba(255, 255, 255, 0.9)), url("../../public/img/pexels-james-wheeler-1592461.jpg");
+  background-image: radial-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(228, 228, 228, 0.6),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../../public/img/pexels-james-wheeler-1592461.jpg");
   background-size: 800% 400%;
   background-position: 0% 40%;
   min-height: 100vh;
@@ -112,8 +117,12 @@ main {
   flex-wrap: wrap;
 }
 
-header, .aside-p, .aside-g, .m-blue {
-  animation: animate 2.2s ease-in 1 reverse, animate2 0.8s linear infinite alternate;
+header,
+.aside-p,
+.aside-g,
+.m-blue {
+  animation: animate 2.2s ease-in 1 reverse,
+    animate2 0.8s linear infinite alternate;
   border: 1vmax solid rgba(123, 0, 255, 0.01);
   border-radius: 1vmax;
 }
@@ -123,7 +132,8 @@ header, .aside-p, .aside-g, .m-blue {
 }
 
 .aside-g {
-  animation: animate 2.2s ease-in 1 reverse, animate2 0.8s linear infinite 1s alternate-reverse;
+  animation: animate 2.2s ease-in 1 reverse,
+    animate2 0.8s linear infinite 1s alternate-reverse;
 }
 
 /*# sourceMappingURL=style.css.map */
