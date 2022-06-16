@@ -133,7 +133,7 @@ header,
 
 .aside-g {
   animation: animate 2.2s ease-in 1 reverse,
-    animate2 0.8s linear infinite 1s alternate-reverse;
+    animate2 0.8s linear infinite alternate-reverse;
 }
 
 /*# sourceMappingURL=style.css.map */
