@@ -17,12 +17,12 @@
 }
 @keyframes animate-bg {
   to {
-    background-position: 80% 80%;
+    background-position: 100% 80%;
   }
 }
 @keyframes animate-bg2 {
   to {
-    background-size: 400% 200%;
+    background-size: 200% 100%;
   }
 }
 * {
@@ -33,11 +33,11 @@
 
 body {
   background-color: rgba(202, 202, 202, 0.382);
-  background-image: radial-gradient(rgba(255, 255, 255, 0.7), rgba(228, 228, 228, 0.7), rgba(224, 224, 224, 0.7)), url(../../public/img/pexels-josh-sorenson-737551.jpg);
-  background-size: 1200% 600%;
-  background-position: 10% 60%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.9), rgba(228, 228, 228, 0.6), rgba(255, 255, 255, 0.9)), url(../../public/img/pexels-james-wheeler-1592461.jpg);
+  background-size: 800% 400%;
+  background-position: 0% 40%;
   min-height: 100vh;
-  animation: animate-bg 8s linear 9 alternate-reverse, animate-bg2 9s 10 1s alternate;
+  animation: animate-bg 8s linear 9 alternate, animate-bg2 9s 10 1s alternate-reverse;
   filter: blur(0.5px);
 }
 
@@ -117,7 +117,6 @@ header, .aside-p, .aside-g, .m-blue {
   animation: animate 2.2s ease-in 1 reverse, animate2 0.4s linear infinite alternate;
   border: 1vmax solid rgba(123, 0, 255, 0.01);
   border-radius: 1vmax;
-  opacity: 0.9;
 }
 
 .m-blue {
