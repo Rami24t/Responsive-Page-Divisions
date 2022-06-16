@@ -1,30 +1,3 @@
-@keyframes animate {
-  from {
-    transform: scale(1) rotate(0deg);
-  }
-  to {
-    opacity: 0;
-    transform: scale(0) rotate(180deg);
-  }
-}
-@keyframes animate2 {
-  0% {
-    background-position: 0% 0%;
-  }
-  100% {
-    background-position: 0% 88%;
-  }
-}
-@keyframes animate-bg {
-  to {
-    background-position: 100% 80%;
-  }
-}
-@keyframes animate-bg2 {
-  to {
-    background-size: 200% 100%;
-  }
-}
 * {
   box-sizing: border-box;
   margin: 0%;
@@ -136,4 +109,30 @@ header,
     animate2 0.8s linear infinite alternate-reverse;
 }
 
-/*# sourceMappingURL=style.css.map */
+@keyframes animate {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0) rotate(180deg);
+  }
+}
+@keyframes animate2 {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 88%;
+  }
+}
+@keyframes animate-bg {
+  to {
+    background-position: 100% 80%;
+  }
+}
+@keyframes animate-bg2 {
+  to {
+    background-size: 200% 100%;
+  }
+}
