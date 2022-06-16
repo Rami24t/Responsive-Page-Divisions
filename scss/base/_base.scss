@@ -11,6 +11,5 @@ body{
     background-size: 800% 400%;
     background-position: 0% 40%;
     min-height: 100vh;
-    animation: animate-bg 8s linear 9 alternate,  animate-bg2 9s 10 1s alternate-reverse;
-    filter: blur(0.5px);
+    animation: animate-bg 8s linear 3 alternate,  animate-bg2 9s 4 1s alternate;
 }
