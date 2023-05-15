@@ -8,10 +8,9 @@ https://rami24t.github.io/Responsive-Page-Divisions/
 
 ## Snapshots
 
-![Screenshot 2023-05-15 at 22-38-23 Colorful Responsive Divs](https://github.com/Rami24t/Responsive-Page-Divisions/assets/103028944/b5478bea-ae8a-44f8-b63b-2b95eb6fd645)
-![Screenshot 2023-05-15 at 22-38-05 Colorful Responsive Divs](https://github.com/Rami24t/Responsive-Page-Divisions/assets/103028944/c44b9718-d4a3-4fb3-8856-65f493287498)
-![Screenshot 2023-05-15 at 22-37-35 Colorful Responsive Divs](https://github.com/Rami24t/Responsive-Page-Divisions/assets/103028944/c77531a5-5908-4026-aee0-14d3ca89a094)
-
+![Screenshot 2023-05-15 at 22-38-05 Colorful Responsive Divs](https://github.com/Rami24t/Responsive-Page-Divisions/assets/103028944/b6298459-9fb0-46e0-81b9-12e94e8f6d3e)
+![Screenshot 2023-05-15 at 22-38-23 Colorful Responsive Divs](https://github.com/Rami24t/Responsive-Page-Divisions/assets/103028944/efb4bf9d-704e-470d-9c05-5dda942157d0)
+![Screenshot 2023-05-15 at 22-37-35 Colorful Responsive Divs](https://github.com/Rami24t/Responsive-Page-Divisions/assets/103028944/5fb43115-c385-49bb-90dc-2b89d18281df)
 
 
 ## Description
